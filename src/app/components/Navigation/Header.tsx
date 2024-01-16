@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 
 const Header = () => {
     return (
-        <div>
+        <div className="fixed">
             <div className="space-y-4 text-slate-300">
                 <h1 className="text-5xl font-bold ">Britanny Chiang</h1>
                 <p className="text-xl font-semibold">

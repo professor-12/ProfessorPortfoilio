@@ -2,7 +2,7 @@ import React from "react";
 import  Link  from "next/link"
 const NavLinks = () => {
     return (
-        <ul className="space-y-4 text-slate-300 text-sm font-bold">
+        <ul className="space-y-4  text-slate-300 text-sm font-bold">
             <Link
                 href="#about"
                 className="flex group cursor-pointer space-x-3  items-center"

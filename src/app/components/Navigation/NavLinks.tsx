@@ -15,7 +15,7 @@ const NavLinks = () => {
                 </span>
             </Link>
             <Link
-                href="#experince"
+                href="#experience"
                 className="flex group cursor-pointer space-x-3  items-center"
             >
                 <span className="flex items-end">

@@ -2,7 +2,7 @@
 import React from "react";
 const Main = () => {
     return (
-        <div>
+        <div id="about" className="pt-[6rem]">
             <article className="leading-7  space-y-4 text-slate-500 text-lg">
                 Back in 2012, I decided to try my hand at creating custom Tumblr
                 themes and tumbled head first into the rabbit hole of coding and

@@ -21,6 +21,8 @@ const Project = async () => {
                                     className="object-cover w-32 m-0 rounded ring-2"
                                     src={site.screenshot_url}
                                     alt={site.name}
+                                    width={350}
+                                    height={350}
                                 />
                             </div>
                             <div className="w-[80%]">

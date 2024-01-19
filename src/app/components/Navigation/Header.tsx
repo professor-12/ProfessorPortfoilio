@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className="fixed">
             <div className="space-y-4 text-slate-300">
-                <h1 className="text-5xl font-bold ">Britanny Chiang</h1>
+                <h1 className="text-5xl font-bold ">Emmanuel Badejo</h1>
                 <p className="text-xl font-semibold">
                     Lead Engineer at Upstatement
                 </p>

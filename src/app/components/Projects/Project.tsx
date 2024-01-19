@@ -1,4 +1,5 @@
 import { getData } from "@/lib/Data";
+import Image from "next/image";
 import Link from "next/link";
 
 const Project = async () => {
@@ -16,10 +17,10 @@ const Project = async () => {
                             className="flex p-5 px-10 hover:bg-[#17274B] rounded-md justify-between gap-8 items-start"
                         >
                             <div className="">
-                                <img
+                                <Image
                                     className="object-cover w-32 m-0 rounded ring-2"
                                     src={site.screenshot_url}
-                                    alt=""
+                                    alt={site.name}
                                 />
                             </div>
                             <div className="w-[80%]">

@@ -4,9 +4,8 @@ import Link from "next/link";
 
 const Project = async () => {
     const data = (await getData()) as Array<any>;
-    console.log(data);
     return (
-        <div className="space-y-5 pt-12" id="project">
+        <div className="space-y-3 pt-12" id="project">
             {data.map((site) => {
                 return (
                     site.screenshot_url && (
@@ -14,7 +13,7 @@ const Project = async () => {
                             href={site.deploy_url}
                             key={site?.id}
                             target="_blank"
-                            className="flex p-5 px-10 hover:bg-[#17274B] rounded-md justify-between gap-8 items-start"
+                            className="flex p-4 px-8 hover:bg-[#17274B] rounded-md justify-between gap-8 items-start"
                         >
                             <div className="">
                                 <Image

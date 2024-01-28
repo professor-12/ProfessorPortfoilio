@@ -12,6 +12,7 @@ const Project = async () => {
                 target="_blank"
                 className="flex p-4 px-8 hover:bg-[#17274B] rounded-md justify-between gap-8 items-start"
             >
+                {/*  */}
                 <div className="">
                     <Image
                         className="object-cover w-32 m-0 rounded ring-2"

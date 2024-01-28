@@ -6,6 +6,5 @@ export async function getData() {
             Authorization: "Bearer " + API_KEY,
         },
       })
-      return await data.json()
-      
+      return await data.json() as any     
 }
